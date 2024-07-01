@@ -1,0 +1,127 @@
+/* large divices */
+@media only screen and (max-width: 1100px) {
+  .container .left {
+    position: absolute;
+    left: -100%;
+    z-index: 99;
+    width: 320px;
+    transition: left 0.3s ease;
+  }
+
+  .container .right {
+    width: 100vw;
+  }
+  .right .right-nav {
+    width: 98vw;
+  }
+  #hamburger {
+    display: block;
+  }
+  .right .right-nav .part1 {
+    margin-left: 55px;
+  }
+
+  .right .right-nav .part2 button {
+    font-size: 1.2rem;
+    padding: 10px 12px;
+    border-radius: 22px;
+    border: 1px solid white;
+  }
+
+  .close img {
+    display: block;
+  }
+
+  .playSection {
+    width: 97.6vw;
+  }
+}
+
+/* meduim divices */
+@media only screen and (max-width: 830px) {
+  .playSection {
+    height: 210px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 93vw;
+    margin: 15px 19px;
+  }
+
+  .playSection .songInfo {
+    width: 100%;
+  }
+  .playSection .songInfo p {
+    padding-left: 0px;
+    text-align: center;
+    font-weight: 200;
+  }
+  .playSection .songTime {
+    padding-left: 0px;
+  }
+  .playSection .songTime p {
+    font-weight: 200;
+  }
+
+  .playSection .songButton {
+    padding-left: 0px;
+  }
+
+  .volume {
+    margin-right: 0px;
+  }
+
+  .volume img {
+    filter: invert(1);
+  }
+
+  .range input {
+    height: 5px;
+    cursor: pointer;
+  }
+  .seekbar {
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0%;
+  }
+  .seekbar input {
+    height: 4px;
+    width: 91vw;
+  }
+}
+
+/* small divices */
+@media only screen and (max-width: 480px) {
+  .card-container .card {
+    height: 350px;
+    width: 280px;
+    padding: 16px 40px;
+  }
+  .card-container .card h2 {
+    font-size: 1.7rem;
+    padding-top: 10px;
+  }
+
+  .card-container .card > img {
+    height: 200px;
+  }
+  .card-container .card button {
+    padding: 8px 12px;
+    background-color: #54d762;
+    border-radius: 32px;
+    border: 1px solid #54d762;
+    position: absolute;
+    bottom: 120px;
+    right: 55px;
+    opacity: 0;
+    transition: all ease 0.2s;
+  }
+
+  .card-container .card:hover button {
+    opacity: 1;
+    bottom: 145px;
+    right: 55px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/512px-Spotify_icon.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Utility.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<body>
+    <div id="main">
+        <div class="container flex bg-black">
+            <div class="left  bg-black">
+                <div class="close">
+                    <span><img id="close" src="./SVG/close.svg" alt="img"></span>
+                </div>
+            <div class="home bg-gray m-1 rounded">
+                <div class="logo">
+                    <a href="#"><img src="./SVG/logo.svg" alt="svgLogo"></a>
+                </div>
+                <ul>
+                    <li><a href="#"><img src="./SVG/home.svg" alt="svgHomeIcon">Home</a></li>
+                    <li><a href="#"><img src="./SVG/search.svg" alt="svgSearcIcon">Search</a></li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1">
+                <div class="heading">
+                    <span><a href="#"><img class="invert" src="./SVG/library.svg" alt="img"></a></span>
+                    <h2><a href="#">Your Library</a></h2>
+                </div>
+                <div class="songs-container">
+                </div>
+                <div class="nav-footer">
+                    <ul><li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy Ploicy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">safety & privacy center</a></li></ul>
+                    <div class="nav btn">
+                        <button><span><i class="ri-global-line"></i></span>English</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="right bg-black ">
+                <div class="right-nav">
+                    <div class="hamburger">
+                        <span><img id="hamburger" src="./SVG/hamburger.svg" alt="img"></span>
+                    </div>
+                    <div class="part1">
+                        <span><img class="invert" src="./SVG/arrow1.svg" alt="arrowImg1"></span>
+                        <span><img class="invert" src="./SVG/arrow2.svg" alt="arrowImg2"></span>
+                    </div>
+                    <div class="part2">
+                        <span><a href="#">Sign up</a></span>
+                        <button><a href="#">Log in</a></button>
+                    </div>
+                </div>
+                <div class="spotifyPlaylist bg-gray ">
+                    <h1>Spotify Playlists</h1>
+                    <div class="card-container">
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                        <div class="card">
+                            <img aria-hidden="false" draggable="false" loading="eager" src="https://i.scdn.co/image/ab67706f000000028aa213d23c60645e2649a350" alt="Mega Hit Mix" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" sizes="(min-width: 1280px) 232px, 192px">
+                            <button><img src="./SVG/play.svg" alt="imgs"></button>
+                            <h2>Mega Hit Mix</h2>
+                            <p>A mega mix of 75 favorites from the last few years!</p>
+
+                        </div>
+                    </div>
+                    <div class="playSection">
+                        <div class="songInfo"><p id="seekBarsongTitle">DEKH_LENA_Full_audio_Song.mp3</p></div>
+                        <div class="songButton">
+                            <span><img id="seekBarBackBtn" src="./SVG/back.svg" alt="img"></span>
+                            <span><img id="seekBarPlayBtn" src="./SVG/playBtn.svg" alt="img"></span>
+                            <span><img id="seekBarFowardBtn" src="./SVG/forward.svg" alt="img"></span>
+                        </div>
+                        <div class="songTime"><p id="songTime">03 :04 / 00:00</p></div>
+                        <div class="volume">
+                            <img width="25" id="volume"  src="./SVG/volume.svg" alt="img">
+                            <img width="25" id="mute"  src=".SVG/mute.svg" alt="img">
+                            <div class="range">
+                                <input type="range" name="volume" id="range">
+                            </div>
+                        </div>
+                        <div class="seekbar">
+                            <input  min="0" max="100" value="0" type="range" id="seekbar">
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
